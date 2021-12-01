@@ -1,0 +1,156 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+} 
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.foto {
+    position: absolute;
+    width: 1200px;
+    height: 99px;
+    left: 120px;
+    top: 210;
+}
+
+.blok {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 13px;
+}
+
+.services {
+    display: flex;
+}
+
+.services__item {
+    flex: 1 1 0;
+    padding-left: 90px;
+    position: relative;
+}
+
+.services__icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.services__title {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #000000; 
+    text-transform: uppercase;
+}
+
+.services__text {
+    margin-bottom: 5px;
+    size: 20px;
+    color: #000;
+}
+
+.services__titlee {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #05B135;
+    text-transform: uppercase;
+}
+
+.services__textt {
+    margin-bottom: 5px;
+    size: 20px;
+    color: #000000;
+}
+
+.services__titlex {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #DB0000;
+    text-transform: uppercase;
+}
+
+.services__textx {
+    margin-bottom: 5px;
+    size: 20px;
+    color: #000000;
+}
+
+.services__titlec {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.services__textc {
+    margin-bottom: 5px;
+    size: 20px;
+    color: #000000;
+}
+
+.foto1 {
+    display: flex;
+}
+
+.foto2 {
+    flex: 1 1 0;
+}
+
+.foto__text {
+    margin-bottom: 5px;
+    size: 20px;
+    color:dimgray
+}
+
+.foto4 {
+    display: flex;
+}
+
+.foto5 {
+    flex: 1 1 0;
+}
+
+.foto__text {
+    margin-bottom: 5px;
+    size: 20px;
+    color:dimgray
+}
+
+.section--devices {
+    background: url(../images/ww.png);
+    -webkit-box-size: cover;
+    background-size: cover;
+
+}
+
+.intro {
+    display: flex;
+}
+
+.container {
+    flex: 1 1 0;
+}
+
+.intro__section {
+    margin-bottom: 5px;
+    size: 20px;
+    color:dimgray
+}
